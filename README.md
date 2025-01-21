@@ -16,6 +16,8 @@ For testing, get a free eWAY Partner account: https://www.eway.com.au/developers
 
 The eWAY Ruby Gem requires Ruby 2.0.0 or better, it also requires the rest-client and json gems.
 
+NOTE: This fork has updated the json dependency which was causing issues with other gems after Rails 7 upgrade
+
 Add this line to your application's Gemfile:
 
 ```ruby
